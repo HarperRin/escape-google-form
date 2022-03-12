@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六角西餐廳</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">六角西餐廳</h1>
+        <form class="row g-3" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdqhNwtl4ewB2uqLA9U_5_erqSQxp0hOkY0nCnW1VvVt7iQFQ/formResponse" method="post">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">姓名</label>
+                <input type="text" name="entry.2043356660" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-6">
+                <label for="inputTel" class="form-label">電話</label>
+                <input type="tel" name="entry.2089370417" class="form-control" id="inputTel">
+            </div>
+            <div class="col-12">
+                <label for="inputDate" class="form-label">日期</label>
+                <input type="date" name="entry.1348741925" class="form-control" id="inputDate">
+            </div>
+            <div class="col-12">
+                <label for="inputPeopleNum" class="form-label">用餐人數</label>
+                <select name="entry.1256403327" class="form-select" id="inputPeopleNum">
+                    <option selected>Choose...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <label class="form-check-label mb-1" for="gridCheck">其他項目</label>
+                <div class="form-check">
+                    <input
+                        name="entry.1722600789"
+                        class="form-check-input"
+                        type="checkbox"
+                        value="需要兒童座椅"
+                        id="childChairCheck"
+                    />
+                    <label class="form-check-label" for="childChairCheck">
+                        需要兒童座椅
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input
+                        name="entry.1722600789"
+                        class="form-check-input"
+                        type="checkbox"
+                        value="素食餐點"
+                        id="vegetarianCheck"
+                    />
+                    <label class="form-check-label" for="vegetarianCheck">
+                        素食餐點
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input
+                        name="entry.1722600789"
+                        class="form-check-input"
+                        type="checkbox"
+                        value="吸煙區"
+                        id="smokeAreaCheck"
+                    />
+                    <label class="form-check-label" for="smokeAreaCheck">
+                        吸煙區
+                    </label>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-dark">送出</button>
+            </div>
+        </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
